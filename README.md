@@ -41,7 +41,7 @@ The game will support:
 - Drawing cards when no valid move exists
 - Detecting when a player reaches **UNO**
 - Determining the winner of a round
-- (Optional) A full scoring system up to **500 points**
+- A scoring system
 
 This project serves as a practical exercise in applying OOP concepts such as classes, encapsulation, game state management, and enumerations.
 
@@ -68,16 +68,6 @@ This project serves as a practical exercise in applying OOP concepts such as cla
 ### **3. Ending the Round**
 
 A round ends when a player has played all their cards.
-
-### **4. Optional Scoring**
-
-Points are awarded based on the cards remaining in opponents’ hands:
-
-- Number cards -> face value  
-- Skip, Reverse, PlusTwo -> 20 points  
-- Wild and WildPlusFour -> 50 points  
-
-A full UNO game is usually played until one player reaches **500 points**.
 
 ---
 
