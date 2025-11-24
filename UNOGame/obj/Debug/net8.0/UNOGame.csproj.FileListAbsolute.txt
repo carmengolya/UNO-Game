@@ -1,0 +1,15 @@
+/home/carmen/UNO-Game/UNOGame/bin/Debug/net8.0/UNOGame
+/home/carmen/UNO-Game/UNOGame/bin/Debug/net8.0/UNOGame.deps.json
+/home/carmen/UNO-Game/UNOGame/bin/Debug/net8.0/UNOGame.runtimeconfig.json
+/home/carmen/UNO-Game/UNOGame/bin/Debug/net8.0/UNOGame.dll
+/home/carmen/UNO-Game/UNOGame/bin/Debug/net8.0/UNOGame.pdb
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.AssemblyInfoInputs.cache
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.AssemblyInfo.cs
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.csproj.CoreCompileInputs.cache
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.sourcelink.json
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.dll
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/refint/UNOGame.dll
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.pdb
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/UNOGame.genruntimeconfig.cache
+/home/carmen/UNO-Game/UNOGame/obj/Debug/net8.0/ref/UNOGame.dll
