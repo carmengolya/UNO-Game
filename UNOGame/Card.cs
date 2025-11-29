@@ -13,6 +13,20 @@ public class Card
     {
         if(Colour == Colour.None)
             return $"{CardType}";
-        return $"{Colour} {CardType}";
+        return $"{Colour}-{CardType}";
+    }
+
+    public bool CanBePlayed(Card otherCard, Colour currentColour)
+    {
+        if(CardType == CardType.Wild || CardType == CardType.WildPlusFour)
+            return true;
+
+        if(Colour == currentColour)
+            return true;
+
+        if(CardType == otherCard.CardType)
+            return true;
+
+        return false;
     }
 }
