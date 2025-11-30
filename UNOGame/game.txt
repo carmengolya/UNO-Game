@@ -1,0 +1,1536 @@
+===============================
+          U N O   G A M E      
+===============================
+
+1. Start New Game
+2. View Rules
+3. View Scores
+4. Exit
+
+Choose an option: 
+1
+[SETUP] Number of players (2-10): 3
+[SETUP] Name of the player 1: 1
+[SETUP] Name of the player 2: 2
+[SETUP] Name of the player 3: 3
+[LOG TOP] First card on the table: Red-Reverse
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Red-Reverse
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 86
+[PLAYERS] ->   Hand of 1:(0)Red-One; (1)Yellow-Six; (2)Yellow-Seven; (3)Blue-Skip; (4)Yellow-Three; (5)Yellow-Five; (6)Red-Zero; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Red-Nine; (4)Blue-PlusTwo; (5)Red-Reverse; (6)Blue-One; 
+[PLAYERS]      Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Seven; (3)Red-Four; (4)Yellow-Eight; (5)Blue-Nine; (6)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Red-One
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Red-One
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 86
+[PLAYERS]      Hand of 1:(0)Yellow-Six; (1)Yellow-Seven; (2)Blue-Skip; (3)Yellow-Three; (4)Yellow-Five; (5)Red-Zero; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Red-Nine; (4)Blue-PlusTwo; (5)Red-Reverse; (6)Blue-One; 
+[PLAYERS]      Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Seven; (3)Red-Four; (4)Yellow-Eight; (5)Blue-Nine; (6)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 2 played Red-Nine
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Red-Nine
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 86
+[PLAYERS]      Hand of 1:(0)Yellow-Six; (1)Yellow-Seven; (2)Blue-Skip; (3)Yellow-Three; (4)Yellow-Five; (5)Red-Zero; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Blue-One; 
+[PLAYERS] ->   Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Seven; (3)Red-Four; (4)Yellow-Eight; (5)Blue-Nine; (6)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 3 played Red-Seven
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Red-Seven
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 86
+[PLAYERS] ->   Hand of 1:(0)Yellow-Six; (1)Yellow-Seven; (2)Blue-Skip; (3)Yellow-Three; (4)Yellow-Five; (5)Red-Zero; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Blue-One; 
+[PLAYERS]      Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Four; (3)Yellow-Eight; (4)Blue-Nine; (5)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Yellow-Seven
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-Seven
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 86
+[PLAYERS]      Hand of 1:(0)Yellow-Six; (1)Blue-Skip; (2)Yellow-Three; (3)Yellow-Five; (4)Red-Zero; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Blue-One; 
+[PLAYERS]      Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Four; (3)Yellow-Eight; (4)Blue-Nine; (5)WildPlusFour; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Seven
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 85
+[PLAYERS]      Hand of 1:(0)Yellow-Six; (1)Blue-Skip; (2)Yellow-Three; (3)Yellow-Five; (4)Red-Zero; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Blue-One; (6)Red-Three; 
+[PLAYERS] ->   Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Four; (3)Yellow-Eight; (4)Blue-Nine; (5)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 3 played Yellow-Eight
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-Eight
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 85
+[PLAYERS] ->   Hand of 1:(0)Yellow-Six; (1)Blue-Skip; (2)Yellow-Three; (3)Yellow-Five; (4)Red-Zero; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Blue-One; (6)Red-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Four; (3)Blue-Nine; (4)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Yellow-Six
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-Six
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 85
+[PLAYERS]      Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Nine; (1)Green-Six; (2)Blue-Eight; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Blue-One; (6)Red-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Four; (3)Blue-Nine; (4)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 2 played Green-Six
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Six
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 85
+[PLAYERS]      Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Blue-Eight; (2)Blue-PlusTwo; (3)Red-Reverse; (4)Blue-One; (5)Red-Three; 
+[PLAYERS] ->   Hand of 3:(0)Green-Seven; (1)Blue-One; (2)Red-Four; (3)Blue-Nine; (4)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Green-Seven
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Seven
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 85
+[PLAYERS] ->   Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Blue-Eight; (2)Blue-PlusTwo; (3)Red-Reverse; (4)Blue-One; (5)Red-Three; 
+[PLAYERS]      Hand of 3:(0)Blue-One; (1)Red-Four; (2)Blue-Nine; (3)WildPlusFour; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Seven
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 84
+[PLAYERS]      Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; (4)Green-Reverse; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Nine; (1)Blue-Eight; (2)Blue-PlusTwo; (3)Red-Reverse; (4)Blue-One; (5)Red-Three; 
+[PLAYERS]      Hand of 3:(0)Blue-One; (1)Red-Four; (2)Blue-Nine; (3)WildPlusFour; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Seven
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 83
+[PLAYERS]      Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; (4)Green-Reverse; 
+[PLAYERS]      Hand of 2:(0)Blue-Nine; (1)Blue-Eight; (2)Blue-PlusTwo; (3)Red-Reverse; (4)Blue-One; (5)Red-Three; (6)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Blue-One; (1)Red-Four; (2)Blue-Nine; (3)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 3 played WildPlusFour
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+0
+[WILD FOUR] Next player (1) draws 4 cards and is skipped!
+[DEBUG] 1 now has 9 cards!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: WildPlusFour
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 79
+[PLAYERS]      Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; (4)Green-Reverse; (5)Green-Eight; (6)Red-PlusTwo; (7)Red-Five; (8)Wild; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Nine; (1)Blue-Eight; (2)Blue-PlusTwo; (3)Red-Reverse; (4)Blue-One; (5)Red-Three; (6)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Blue-One; (1)Red-Four; (2)Blue-Nine; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Blue-Nine
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Nine
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 79
+[PLAYERS]      Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; (4)Green-Reverse; (5)Green-Eight; (6)Red-PlusTwo; (7)Red-Five; (8)Wild; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; (5)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Blue-One; (1)Red-Four; (2)Blue-Nine; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Blue-One
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-One
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 79
+[PLAYERS] ->   Hand of 1:(0)Blue-Skip; (1)Yellow-Three; (2)Yellow-Five; (3)Red-Zero; (4)Green-Reverse; (5)Green-Eight; (6)Red-PlusTwo; (7)Red-Five; (8)Wild; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; (5)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Four; (1)Blue-Nine; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Blue-Skip
+[SKIP] Next player (2) is skipped!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Skip
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 79
+[PLAYERS]      Hand of 1:(0)Yellow-Three; (1)Yellow-Five; (2)Red-Zero; (3)Green-Reverse; (4)Green-Eight; (5)Red-PlusTwo; (6)Red-Five; (7)Wild; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; (5)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Red-Four; (1)Blue-Nine; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 3 played Blue-Nine
+[UNO] 3 says UNO!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Nine
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 79
+[PLAYERS] ->   Hand of 1:(0)Yellow-Three; (1)Yellow-Five; (2)Red-Zero; (3)Green-Reverse; (4)Green-Eight; (5)Red-PlusTwo; (6)Red-Five; (7)Wild; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; (5)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+7
+[PLAY] 1 played Wild
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+1
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Wild
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 79
+[PLAYERS]      Hand of 1:(0)Yellow-Three; (1)Yellow-Five; (2)Red-Zero; (3)Green-Reverse; (4)Green-Eight; (5)Red-PlusTwo; (6)Red-Five; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; (5)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+5
+[PLAY] 2 played Yellow-Eight
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Eight
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 79
+[PLAYERS]      Hand of 1:(0)Yellow-Three; (1)Yellow-Five; (2)Red-Zero; (3)Green-Reverse; (4)Green-Eight; (5)Red-PlusTwo; (6)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; 
+[PLAYERS] ->   Hand of 3:(0)Red-Four; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-Eight
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 78
+[PLAYERS] ->   Hand of 1:(0)Yellow-Three; (1)Yellow-Five; (2)Red-Zero; (3)Green-Reverse; (4)Green-Eight; (5)Red-PlusTwo; (6)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; 
+[PLAYERS]      Hand of 3:(0)Red-Four; (1)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Yellow-Three
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-Three
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 78
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Red-Zero; (2)Green-Reverse; (3)Green-Eight; (4)Red-PlusTwo; (5)Red-Five; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; (4)Red-Three; 
+[PLAYERS]      Hand of 3:(0)Red-Four; (1)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+4
+[PLAY] 2 played Red-Three
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Red-Three
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 78
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Red-Zero; (2)Green-Reverse; (3)Green-Eight; (4)Red-PlusTwo; (5)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; 
+[PLAYERS] ->   Hand of 3:(0)Red-Four; (1)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Red-Four
+[UNO] 3 says UNO!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Red-Four
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 78
+[PLAYERS] ->   Hand of 1:(0)Yellow-Five; (1)Red-Zero; (2)Green-Reverse; (3)Green-Eight; (4)Red-PlusTwo; (5)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; 
+[PLAYERS]      Hand of 3:(0)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Red-Zero
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Red-Zero
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 78
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Green-Reverse; (2)Green-Eight; (3)Red-PlusTwo; (4)Red-Five; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Red-Reverse; (3)Blue-One; 
+[PLAYERS]      Hand of 3:(0)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 2 played Red-Reverse
+[DIRECTION] (trigonometric) 3 -> 2 -> 1
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Red-Reverse
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 78
+[PLAYERS] ->   Hand of 1:(0)Yellow-Five; (1)Green-Reverse; (2)Green-Eight; (3)Red-PlusTwo; (4)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Blue-One; 
+[PLAYERS]      Hand of 3:(0)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 1 played Red-PlusTwo
+[PLUS TWO] Next player (3) draws 2 cards and is skipped!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Red-PlusTwo
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 76
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Green-Reverse; (2)Green-Eight; (3)Red-Five; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Eight; (1)Blue-PlusTwo; (2)Blue-One; 
+[PLAYERS]      Hand of 3:(0)WildPlusFour; (1)Green-Five; (2)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 2 played Blue-PlusTwo
+[PLUS TWO] Next player (1) draws 2 cards and is skipped!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-PlusTwo
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 74
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Green-Reverse; (2)Green-Eight; (3)Red-Five; (4)Blue-Four; (5)Yellow-Four; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-One; 
+[PLAYERS] ->   Hand of 3:(0)WildPlusFour; (1)Green-Five; (2)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played WildPlusFour
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+3
+[WILD FOUR] Next player (2) draws 4 cards and is skipped!
+[DEBUG] 2 now has 6 cards!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: WildPlusFour
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 70
+[PLAYERS] ->   Hand of 1:(0)Yellow-Five; (1)Green-Reverse; (2)Green-Eight; (3)Red-Five; (4)Blue-Four; (5)Yellow-Four; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-One; (2)Blue-Six; (3)Green-Three; (4)Wild; (5)Red-Six; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Green-Reverse
+[DIRECTION] (clockwise) 1 -> 2 -> 3
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Reverse
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Green-Eight; (2)Red-Five; (3)Blue-Four; (4)Yellow-Four; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Eight; (1)Blue-One; (2)Blue-Six; (3)Green-Three; (4)Wild; (5)Red-Six; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 2 played Green-Three
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Three
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Green-Eight; (2)Red-Five; (3)Blue-Four; (4)Yellow-Four; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-One; (2)Blue-Six; (3)Wild; (4)Red-Six; 
+[PLAYERS] ->   Hand of 3:(0)Green-Five; (1)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Green-Five
+[UNO] 3 says UNO!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Five
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 70
+[PLAYERS] ->   Hand of 1:(0)Yellow-Five; (1)Green-Eight; (2)Red-Five; (3)Blue-Four; (4)Yellow-Four; 
+[PLAYERS]      Hand of 2:(0)Blue-Eight; (1)Blue-One; (2)Blue-Six; (3)Wild; (4)Red-Six; 
+[PLAYERS]      Hand of 3:(0)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Green-Eight
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Eight
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Red-Five; (2)Blue-Four; (3)Yellow-Four; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Eight; (1)Blue-One; (2)Blue-Six; (3)Wild; (4)Red-Six; 
+[PLAYERS]      Hand of 3:(0)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Blue-Eight
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Eight
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Yellow-Five; (1)Red-Five; (2)Blue-Four; (3)Yellow-Four; 
+[PLAYERS]      Hand of 2:(0)Blue-One; (1)Blue-Six; (2)Wild; (3)Red-Six; 
+[PLAYERS] ->   Hand of 3:(0)Wild; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Wild
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+0
+[SCORE] 3 gains 81 points!
+[TOTAL] 3 now has 81 total points.
+
+[NEW ROUND STARTING]
+[LOG TOP] First card on the table: Green-PlusTwo
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-PlusTwo
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 86
+[PLAYERS] ->   Hand of 1:(0)Blue-Two; (1)Blue-Nine; (2)Yellow-Eight; (3)WildPlusFour; (4)Red-Reverse; (5)Blue-Three; (6)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Yellow-Two; (1)Green-Six; (2)Green-Seven; (3)Blue-Five; (4)Red-Three; (5)Yellow-Four; (6)Green-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Blue-Seven; (4)Yellow-PlusTwo; (5)Green-Seven; (6)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 1 played WildPlusFour
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+0
+[WILD FOUR] Next player (2) draws 4 cards and is skipped!
+[DEBUG] 2 now has 11 cards!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: WildPlusFour
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 82
+[PLAYERS]      Hand of 1:(0)Blue-Two; (1)Blue-Nine; (2)Yellow-Eight; (3)Red-Reverse; (4)Blue-Three; (5)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Yellow-Two; (1)Green-Six; (2)Green-Seven; (3)Blue-Five; (4)Red-Three; (5)Yellow-Four; (6)Green-Five; (7)Blue-Zero; (8)Red-Seven; (9)Yellow-Skip; (10)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Blue-Seven; (4)Yellow-PlusTwo; (5)Green-Seven; (6)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 3 played Blue-Seven
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Seven
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 82
+[PLAYERS] ->   Hand of 1:(0)Blue-Two; (1)Blue-Nine; (2)Yellow-Eight; (3)Red-Reverse; (4)Blue-Three; (5)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Yellow-Two; (1)Green-Six; (2)Green-Seven; (3)Blue-Five; (4)Red-Three; (5)Yellow-Four; (6)Green-Five; (7)Blue-Zero; (8)Red-Seven; (9)Yellow-Skip; (10)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Yellow-PlusTwo; (4)Green-Seven; (5)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Blue-Two
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Two
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 82
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; 
+[PLAYERS] ->   Hand of 2:(0)Yellow-Two; (1)Green-Six; (2)Green-Seven; (3)Blue-Five; (4)Red-Three; (5)Yellow-Four; (6)Green-Five; (7)Blue-Zero; (8)Red-Seven; (9)Yellow-Skip; (10)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Yellow-PlusTwo; (4)Green-Seven; (5)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Yellow-Two
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Two
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 82
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; 
+[PLAYERS]      Hand of 2:(0)Green-Six; (1)Green-Seven; (2)Blue-Five; (3)Red-Three; (4)Yellow-Four; (5)Green-Five; (6)Blue-Zero; (7)Red-Seven; (8)Yellow-Skip; (9)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Yellow-PlusTwo; (4)Green-Seven; (5)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 3 played Yellow-PlusTwo
+[PLUS TWO] Next player (1) draws 2 cards and is skipped!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-PlusTwo
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 80
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Green-Reverse; (6)Yellow-PlusTwo; 
+[PLAYERS] ->   Hand of 2:(0)Green-Six; (1)Green-Seven; (2)Blue-Five; (3)Red-Three; (4)Yellow-Four; (5)Green-Five; (6)Blue-Zero; (7)Red-Seven; (8)Yellow-Skip; (9)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Green-Seven; (4)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+4
+[PLAY] 2 played Yellow-Four
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Four
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 80
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Green-Reverse; (6)Yellow-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Green-Six; (1)Green-Seven; (2)Blue-Five; (3)Red-Three; (4)Green-Five; (5)Blue-Zero; (6)Red-Seven; (7)Yellow-Skip; (8)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Green-Seven; (4)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+4
+[PLAY] 3 played WildPlusFour
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+3
+[WILD FOUR] Next player (1) draws 4 cards and is skipped!
+[DEBUG] 1 now has 11 cards!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: WildPlusFour
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Green-Reverse; (6)Yellow-PlusTwo; (7)Blue-Reverse; (8)Green-Eight; (9)Green-Skip; (10)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Green-Six; (1)Green-Seven; (2)Blue-Five; (3)Red-Three; (4)Green-Five; (5)Blue-Zero; (6)Red-Seven; (7)Yellow-Skip; (8)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Green-Seven; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Green-Six
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Six
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Green-Reverse; (6)Yellow-PlusTwo; (7)Blue-Reverse; (8)Green-Eight; (9)Green-Skip; (10)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Seven; (1)Blue-Five; (2)Red-Three; (3)Green-Five; (4)Blue-Zero; (5)Red-Seven; (6)Yellow-Skip; (7)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Green-Nine; (1)Red-Nine; (2)Red-Six; (3)Green-Seven; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Green-Nine
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Nine
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS] ->   Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Green-Reverse; (6)Yellow-PlusTwo; (7)Blue-Reverse; (8)Green-Eight; (9)Green-Skip; (10)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Seven; (1)Blue-Five; (2)Red-Three; (3)Green-Five; (4)Blue-Zero; (5)Red-Seven; (6)Yellow-Skip; (7)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Seven; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+5
+[PLAY] 1 played Green-Reverse
+[DIRECTION] (trigonometric) 3 -> 2 -> 1
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Reverse
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Green-Eight; (8)Green-Skip; (9)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Seven; (1)Blue-Five; (2)Red-Three; (3)Green-Five; (4)Blue-Zero; (5)Red-Seven; (6)Yellow-Skip; (7)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Seven; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 3 played Green-Seven
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Seven
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Green-Eight; (8)Green-Skip; (9)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Green-Seven; (1)Blue-Five; (2)Red-Three; (3)Green-Five; (4)Blue-Zero; (5)Red-Seven; (6)Yellow-Skip; (7)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Green-Seven
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Seven
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS] ->   Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Green-Eight; (8)Green-Skip; (9)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Green-Five; (3)Blue-Zero; (4)Red-Seven; (5)Yellow-Skip; (6)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+8
+[PLAY] 1 played Green-Skip
+[SKIP] Next player (3) is skipped!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Skip
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Green-Eight; (8)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Green-Five; (3)Blue-Zero; (4)Red-Seven; (5)Yellow-Skip; (6)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 2 played Green-Five
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Five
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS] ->   Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Green-Eight; (8)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Yellow-Skip; (5)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+7
+[PLAY] 1 played Green-Eight
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Eight
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 76
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Yellow-Skip; (5)Yellow-Eight; 
+[PLAYERS] ->   Hand of 3:(0)Red-Nine; (1)Red-Six; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Eight
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 75
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Yellow-Skip; (5)Yellow-Eight; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+5
+[PLAY] 2 played Yellow-Eight
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-Eight
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 75
+[PLAYERS] ->   Hand of 1:(0)Blue-Nine; (1)Yellow-Eight; (2)Red-Reverse; (3)Blue-Three; (4)Red-Five; (5)Yellow-PlusTwo; (6)Blue-Reverse; (7)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Yellow-Skip; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Yellow-Eight
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Eight
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 75
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Red-Reverse; (2)Blue-Three; (3)Red-Five; (4)Yellow-PlusTwo; (5)Blue-Reverse; (6)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Yellow-Skip; 
+[PLAYERS] ->   Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-Eight
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 74
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Red-Reverse; (2)Blue-Three; (3)Red-Five; (4)Yellow-PlusTwo; (5)Blue-Reverse; (6)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Yellow-Skip; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; (3)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+4
+[PLAY] 2 played Yellow-Skip
+[SKIP] Next player (1) is skipped!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Skip
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 74
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Red-Reverse; (2)Blue-Three; (3)Red-Five; (4)Yellow-PlusTwo; (5)Blue-Reverse; (6)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; 
+[PLAYERS] ->   Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; (3)WildPlusFour; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 3 played WildPlusFour
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+2
+[WILD FOUR] Next player (2) draws 4 cards and is skipped!
+[DEBUG] 2 now has 8 cards!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: WildPlusFour
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 70
+[PLAYERS] ->   Hand of 1:(0)Blue-Nine; (1)Red-Reverse; (2)Blue-Three; (3)Red-Five; (4)Yellow-PlusTwo; (5)Blue-Reverse; (6)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Green-Three; (5)Yellow-Seven; (6)Blue-Reverse; (7)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Red-Reverse
+[DIRECTION] (clockwise) 1 -> 2 -> 3
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Red-Reverse
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Blue-Three; (2)Red-Five; (3)Yellow-PlusTwo; (4)Blue-Reverse; (5)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Five; (1)Red-Three; (2)Blue-Zero; (3)Red-Seven; (4)Green-Three; (5)Yellow-Seven; (6)Blue-Reverse; (7)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 2 played Red-Three
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Red-Three
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Blue-Three; (2)Red-Five; (3)Yellow-PlusTwo; (4)Blue-Reverse; (5)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Blue-Zero; (2)Red-Seven; (3)Green-Three; (4)Yellow-Seven; (5)Blue-Reverse; (6)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Red-Nine; (1)Red-Six; (2)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 3 played Red-Six
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Red-Six
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 70
+[PLAYERS] ->   Hand of 1:(0)Blue-Nine; (1)Blue-Three; (2)Red-Five; (3)Yellow-PlusTwo; (4)Blue-Reverse; (5)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Blue-Zero; (2)Red-Seven; (3)Green-Three; (4)Yellow-Seven; (5)Blue-Reverse; (6)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 1 played Red-Five
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Red-Five
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Blue-Three; (2)Yellow-PlusTwo; (3)Blue-Reverse; (4)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Five; (1)Blue-Zero; (2)Red-Seven; (3)Green-Three; (4)Yellow-Seven; (5)Blue-Reverse; (6)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Red-Nine; (1)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 2 played Red-Seven
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Red-Seven
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Blue-Nine; (1)Blue-Three; (2)Yellow-PlusTwo; (3)Blue-Reverse; (4)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Blue-Zero; (2)Green-Three; (3)Yellow-Seven; (4)Blue-Reverse; (5)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Red-Nine; (1)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Red-Nine
+[UNO] 3 says UNO!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Red-Nine
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 70
+[PLAYERS] ->   Hand of 1:(0)Blue-Nine; (1)Blue-Three; (2)Yellow-PlusTwo; (3)Blue-Reverse; (4)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Five; (1)Blue-Zero; (2)Green-Three; (3)Yellow-Seven; (4)Blue-Reverse; (5)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Blue-Nine
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Nine
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Blue-Three; (1)Yellow-PlusTwo; (2)Blue-Reverse; (3)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Five; (1)Blue-Zero; (2)Green-Three; (3)Yellow-Seven; (4)Blue-Reverse; (5)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Blue-Five
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Five
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 70
+[PLAYERS]      Hand of 1:(0)Blue-Three; (1)Yellow-PlusTwo; (2)Blue-Reverse; (3)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Zero; (1)Green-Three; (2)Yellow-Seven; (3)Blue-Reverse; (4)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Five
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 69
+[PLAYERS] ->   Hand of 1:(0)Blue-Three; (1)Yellow-PlusTwo; (2)Blue-Reverse; (3)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Blue-Zero; (1)Green-Three; (2)Yellow-Seven; (3)Blue-Reverse; (4)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Blue-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Blue-Three
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Three
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 69
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Blue-Reverse; (2)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Blue-Zero; (1)Green-Three; (2)Yellow-Seven; (3)Blue-Reverse; (4)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Blue-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Blue-Zero
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Zero
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 69
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Blue-Reverse; (2)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Blue-Reverse; (3)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Blue-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 3 played Blue-Six
+[UNO] 3 says UNO!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Six
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 69
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Blue-Reverse; (2)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Blue-Reverse; (3)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Blue-Reverse
+[DIRECTION] (trigonometric) 3 -> 2 -> 1
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 69
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Blue-Reverse; (3)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 68
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Blue-Reverse; (3)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 2 played Blue-Reverse
+[DIRECTION] (clockwise) 1 -> 2 -> 3
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 68
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 67
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 66
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 65
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 64
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 63
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Blue-Skip; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 62
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Blue-Skip; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Reverse
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 61
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Blue-Skip; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 1 played Blue-Skip
+[SKIP] Next player (2) is skipped!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Skip
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 61
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Skip
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 60
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Skip
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 59
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Blue-Nine; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Skip
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 58
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Blue-Nine; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Skip
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 57
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Blue-Nine; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; (6)Blue-One; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 1 played Blue-Nine
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-Nine
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 57
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; (6)Blue-One; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Nine
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 56
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; (6)Blue-Three; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; (6)Blue-One; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+6
+[PLAY] 3 played Blue-One
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-One
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 56
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; (6)Blue-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Blue-One
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 55
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Red-Four; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; (6)Blue-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+6
+[PLAY] 2 played Blue-Three
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Blue-Three
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 55
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Red-Four; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Blue-Three
+[LOG TOP] Current colour on the table: Blue
+[DECK] Cards remaining in deck: 54
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Yellow-Three; (2)Red-PlusTwo; (3)Red-Four; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; (6)Yellow-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 1 played Yellow-Three
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-Three
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 54
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Red-PlusTwo; (2)Red-Four; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Yellow-Seven; (2)Red-Five; (3)Yellow-Three; (4)Green-Three; (5)Red-PlusTwo; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; (6)Yellow-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 2 played Yellow-Seven
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Seven
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 54
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Red-PlusTwo; (2)Red-Four; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Red-Five; (2)Yellow-Three; (3)Green-Three; (4)Red-PlusTwo; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Yellow-Reverse; (5)Green-Eight; (6)Yellow-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+4
+[PLAY] 3 played Yellow-Reverse
+[DIRECTION] (trigonometric) 3 -> 2 -> 1
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-Reverse
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 54
+[PLAYERS]      Hand of 1:(0)Yellow-PlusTwo; (1)Red-PlusTwo; (2)Red-Four; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Red-Five; (2)Yellow-Three; (3)Green-Three; (4)Red-PlusTwo; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 2 played Yellow-Three
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-Three
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 54
+[PLAYERS] ->   Hand of 1:(0)Yellow-PlusTwo; (1)Red-PlusTwo; (2)Red-Four; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Red-Five; (2)Green-Three; (3)Red-PlusTwo; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 1 played Yellow-PlusTwo
+[PLUS TWO] Next player (3) draws 2 cards and is skipped!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-PlusTwo
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 52
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Red-Five; (2)Green-Three; (3)Red-PlusTwo; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Wild; (7)Yellow-Reverse; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 2 played Red-PlusTwo
+[PLUS TWO] Next player (1) draws 2 cards and is skipped!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Red-PlusTwo
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 50
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Red-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Red-Five; (2)Green-Three; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Wild; (7)Yellow-Reverse; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+6
+[PLAY] 3 played Wild
+[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green
+3
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Wild
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 50
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Red-Three; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Red-Five; (2)Green-Three; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Yellow-Reverse; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 2 played Green-Three
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Three
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 50
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Red-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Yellow-Reverse; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[INVALID OPTION] You can't play this card! Draw one card or choose another one to play.
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Three
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 50
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Red-Three; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Yellow-Reverse; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+3
+[PLAY] 1 played Red-Three
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Red-Three
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 50
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; 
+[PLAYERS]      Hand of 2:(0)Green-Three; (1)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Yellow-Reverse; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Red-Three
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 49
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; 
+[PLAYERS] ->   Hand of 2:(0)Green-Three; (1)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Yellow-Reverse; (7)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Green-Three
+[UNO] 2 says UNO!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Three
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 49
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; 
+[PLAYERS]      Hand of 2:(0)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Yellow-Reverse; (7)Blue-Four; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Three
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 48
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Six; (1)Green-Nine; (2)Green-One; (3)Green-Five; (4)Green-Eight; (5)Yellow-Four; (6)Yellow-Reverse; (7)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Green-Six
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Six
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 48
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; 
+[PLAYERS] ->   Hand of 2:(0)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Nine; (1)Green-One; (2)Green-Five; (3)Green-Eight; (4)Yellow-Four; (5)Yellow-Reverse; (6)Blue-Four; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Six
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 47
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; 
+[PLAYERS]      Hand of 2:(0)Red-Five; (1)Yellow-One; 
+[PLAYERS]      Hand of 3:(0)Green-Nine; (1)Green-One; (2)Green-Five; (3)Green-Eight; (4)Yellow-Four; (5)Yellow-Reverse; (6)Blue-Four; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Six
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 46
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Yellow-Five; 
+[PLAYERS]      Hand of 2:(0)Red-Five; (1)Yellow-One; 
+[PLAYERS] ->   Hand of 3:(0)Green-Nine; (1)Green-One; (2)Green-Five; (3)Green-Eight; (4)Yellow-Four; (5)Yellow-Reverse; (6)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Green-Nine
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-Nine
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 46
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Yellow-Five; 
+[PLAYERS] ->   Hand of 2:(0)Red-Five; (1)Yellow-One; 
+[PLAYERS]      Hand of 3:(0)Green-One; (1)Green-Five; (2)Green-Eight; (3)Yellow-Four; (4)Yellow-Reverse; (5)Blue-Four; 
+[PLAYER] 2 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Green-Nine
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 45
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Yellow-Five; 
+[PLAYERS]      Hand of 2:(0)Red-Five; (1)Yellow-One; (2)Yellow-Zero; 
+[PLAYERS]      Hand of 3:(0)Green-One; (1)Green-Five; (2)Green-Eight; (3)Yellow-Four; (4)Yellow-Reverse; (5)Blue-Four; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Green-Nine
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 44
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Yellow-Five; (5)Red-Reverse; 
+[PLAYERS]      Hand of 2:(0)Red-Five; (1)Yellow-One; (2)Yellow-Zero; 
+[PLAYERS] ->   Hand of 3:(0)Green-One; (1)Green-Five; (2)Green-Eight; (3)Yellow-Four; (4)Yellow-Reverse; (5)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 3 played Green-One
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Green-One
+[LOG TOP] Current colour on the table: Green
+[DECK] Cards remaining in deck: 44
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Yellow-Five; (5)Red-Reverse; 
+[PLAYERS] ->   Hand of 2:(0)Red-Five; (1)Yellow-One; (2)Yellow-Zero; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Yellow-Four; (3)Yellow-Reverse; (4)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+1
+[PLAY] 2 played Yellow-One
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-One
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 44
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Yellow-Five; (5)Red-Reverse; 
+[PLAYERS]      Hand of 2:(0)Red-Five; (1)Yellow-Zero; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Yellow-Four; (3)Yellow-Reverse; (4)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+4
+[PLAY] 1 played Yellow-Five
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Five
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 44
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Red-Reverse; 
+[PLAYERS]      Hand of 2:(0)Red-Five; (1)Yellow-Zero; 
+[PLAYERS] ->   Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Yellow-Four; (3)Yellow-Reverse; (4)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 3 played Yellow-Four
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Yellow-Four
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 44
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Red-Reverse; 
+[PLAYERS] ->   Hand of 2:(0)Red-Five; (1)Yellow-Zero; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Yellow-Reverse; (3)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2 1
+[PLAY] 2 played Yellow-Zero
+[UNO] 2 says UNO!
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-Zero
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 44
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Red-Reverse; 
+[PLAYERS]      Hand of 2:(0)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Yellow-Reverse; (3)Blue-Four; 
+[PLAYER] 1 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Yellow-Zero
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 43
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Green-Zero; 
+[PLAYERS]      Hand of 2:(0)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Yellow-Reverse; (3)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+2
+[PLAY] 3 played Yellow-Reverse
+[DIRECTION] (clockwise) 1 -> 2 -> 3
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-Reverse
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 43
+[PLAYERS] ->   Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Red-Reverse; (5)Green-Zero; 
+[PLAYERS]      Hand of 2:(0)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Blue-Four; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+4
+[PLAY] 1 played Red-Reverse
+[DIRECTION] (trigonometric) 3 -> 2 -> 1
+
+------------------------------------
+
+[PLAYER]-> 3's turn
+[LOG TOP] Current card on the table: Red-Reverse
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 43
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Green-Zero; 
+[PLAYERS]      Hand of 2:(0)Red-Five; 
+[PLAYERS] ->   Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Blue-Four; 
+[PLAYER] 3 can't play, draw one card!
+
+------------------------------------
+
+[PLAYER]-> 2's turn
+[LOG TOP] Current card on the table: Red-Reverse
+[LOG TOP] Current colour on the table: Red
+[DECK] Cards remaining in deck: 42
+[PLAYERS]      Hand of 1:(0)Red-PlusTwo; (1)Red-Four; (2)Blue-One; (3)Blue-PlusTwo; (4)Green-Zero; 
+[PLAYERS] ->   Hand of 2:(0)Red-Five; 
+[PLAYERS]      Hand of 3:(0)Green-Five; (1)Green-Eight; (2)Blue-Four; (3)Red-Eight; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.
+0
+[PLAY] 2 played Red-Five
+[SCORE] 2 gains 70 points!
+[TOTAL] 2 now has 70 total points.
+
+[NEW ROUND STARTING]
+[LOG TOP] First card on the table: Yellow-Five
+
+------------------------------------
+
+[PLAYER]-> 1's turn
+[LOG TOP] Current card on the table: Yellow-Five
+[LOG TOP] Current colour on the table: Yellow
+[DECK] Cards remaining in deck: 86
+[PLAYERS] ->   Hand of 1:(0)Blue-Zero; (1)Yellow-One; (2)Yellow-Zero; (3)Red-Four; (4)Red-Nine; (5)Green-Four; (6)WildPlusFour; 
+[PLAYERS]      Hand of 2:(0)Yellow-Six; (1)Green-Seven; (2)Green-Reverse; (3)Wild; (4)Red-Nine; (5)Green-One; (6)Blue-Five; 
+[PLAYERS]      Hand of 3:(0)Blue-Six; (1)Blue-Six; (2)Red-Eight; (3)Blue-Skip; (4)Red-One; (5)Green-One; (6)Green-Skip; 
+[PICK CARD] Choose the index of one card or type -1 to draw one.

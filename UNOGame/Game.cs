@@ -95,18 +95,20 @@ public class Game
             ApplyCardEffects(chosenCard);
             if(player.HasNoCards)
             {
-                Console.WriteLine($"[WINNER] Player {player.Name} has one this round!");
-                player.AddScore(CalculateScore(player));
-                Console.WriteLine($"[SCORE] {player.Name} gains {player.Score} points!");
-                
+                int roundScore = CalculateScore(player);
+                player.AddScore(roundScore);
+                Console.WriteLine($"[SCORE] {player.Name} gains {roundScore} points!");
+                Console.WriteLine($"[TOTAL] {player.Name} now has {player.Score} total points.");
+                File.AppendAllText("scores.txt", $"{player.Name}: +{roundScore} (total {player.Score})\n");
+
                 if(player.Score >= 500)
                 {
-                    Console.WriteLine("\n [GRAND WINNER] {player.Name} WINS THE GAME with {player.TotalScore} points!!!");
+                    Console.WriteLine($"\n [GRAND WINNER] reset{player.Name} WINS THE GAME with {player.Score} points!!!");
                     break;
                 }
                 
                 Console.WriteLine("\n[NEW ROUND STARTING]");
-                ResetRound();
+                ResetRound(_currentPlayerIndex);
                 continue;
             }
             else if(player.HasOneCard)
@@ -260,11 +262,11 @@ public class Game
         return score;
     }
 
-    private void ResetRound()
+    private void ResetRound(int winner)
     {
         _deck = new Deck();
         _thrownOnes.Clear();
-        _currentPlayerIndex = 0;
+        _currentPlayerIndex = winner;
         _direction = 1;
 
         foreach(var p in _players)
