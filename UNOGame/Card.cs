@@ -11,12 +11,24 @@ public class Card
 
     public override string ToString()
     {
+        string text;
+
         if(Colour == Colour.None)
-            return $"{CardType}";
-        return $"{Colour}-{CardType}";
+            text = $"{CardType}";
+        else
+            text = $"{Colour}-{CardType}";
+        
+        return Colour switch
+        {
+            Colour.Blue   =>  $"\x1B[34m{text}\x1B[0m",
+            Colour.Yellow =>  $"\x1B[33m{text}\x1B[0m",
+            Colour.Red    =>  $"\x1B[31m{text}\x1B[0m",
+            Colour.Green  =>  $"\x1B[32m{text}\x1B[0m",
+            _             =>  text
+        };
     }
 
-    public bool CanBePlayed(Card otherCard, Colour currentColour)
+    public bool CanBePlayed(Card topCard, Colour currentColour)
     {
         if(CardType == CardType.Wild || CardType == CardType.WildPlusFour)
             return true;
@@ -24,7 +36,7 @@ public class Card
         if(Colour == currentColour)
             return true;
 
-        if(CardType == otherCard.CardType)
+        if(CardType == topCard.CardType)
             return true;
 
         return false;

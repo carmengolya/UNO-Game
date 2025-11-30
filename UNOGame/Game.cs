@@ -1,21 +1,21 @@
 public class Game
 {
     private List<Player> _players = new List<Player>();
-    private Deck _deck;
+    private Deck? _deck;
     private List<Card> _thrownOnes = new List<Card>();
     private int _currentPlayerIndex = 0;
-    private int _direction = 1; // -1 if reversed
+    private int _direction = 1;
     private Colour _currentColour;
 
     public void Start()
     {
         Console.Write("Number of players (2-10): ");
-        int n = int.Parse(Console.ReadLine());
+        int n = int.Parse(Console.ReadLine()!);
 
         for (int i = 0; i < n; i++)
         {
             Console.Write($"Name of the player {i + 1}: ");
-            string? name = Console.ReadLine();
+            string? name = Console.ReadLine()!;
             _players.Add(new Player(name));
         }
 
@@ -35,17 +35,17 @@ public class Game
         _thrownOnes.Add(first);
         _currentColour = first.Colour;
 
-        Console.WriteLine($"First card on the table: {first}");
+        Console.WriteLine($"[LOG TOP] First card on the table: {first}");
 
         while(true)
         {
             var player = _players[_currentPlayerIndex];
             Console.WriteLine("\n------------------------------------\n");
-            Console.WriteLine($"{player.Name}'s turn");
-            Console.WriteLine($"Current card on the table: {_thrownOnes.Last()}");
-            Console.WriteLine($"Current colour on the table: {_currentColour}");
+            Console.WriteLine($"-> {player.Name}'s turn");
+            Console.WriteLine($"[LOG TOP] Current card on the table: {_thrownOnes.Last()}");
+            Console.WriteLine($"[LOG TOP] Current colour on the table: {_currentColour}");
 
-            Console.WriteLine(player);
+            PrintAllHands();
 
             var upperCard = _thrownOnes.Last();
             var playableCards = player.Hand
@@ -61,8 +61,8 @@ public class Game
                 continue;
             }
 
-            Console.WriteLine("Choose the index of one card or type -1 to draw one.");
-            int choice = int.Parse(Console.ReadLine());
+            Console.WriteLine("[PICK CARD] Choose the index of one card or type -1 to draw one.");
+            int choice = int.Parse(Console.ReadLine()!);
 
             if(choice == -1)
             {
@@ -73,20 +73,20 @@ public class Game
 
             if(choice < 0 || choice >= player.Hand.Count)
             {
-                Console.WriteLine("Invalid index, next player.");
+                Console.WriteLine("[INVALID OPTION] Invalid index, next player.");
                 continue;
             }
 
             var chosenCard = player.Hand[choice];
             if(!chosenCard.CanBePlayed(upperCard, _currentColour))
             {
-                Console.WriteLine("You can't play this card! Draw one card or choose another one to play.");
+                Console.WriteLine("[INVALID OPTION] You can't play this card! Draw one card or choose another one to play.");
                 continue;
             }
 
             player.Hand.RemoveAt(choice);
             _thrownOnes.Add(chosenCard);
-
+            ApplyCardEffects(chosenCard);
             if(player.HasNoCards)
             {
                 Console.WriteLine($"\nPlayer {player.Name} has one this round!");
@@ -96,8 +96,6 @@ public class Game
             {
                 Console.WriteLine($"{player.Name} says UNO!");
             }
-
-            ApplyCardEffects(chosenCard);
         }
     }
 
@@ -111,14 +109,17 @@ public class Game
         switch(card.CardType)
         {
             case CardType.Skip:
-                Console.WriteLine("Next player is skipped!");
+                int idxNext = GetNextPlayerIndex();
+                Console.WriteLine($"Next player ({_players[idxNext].Name}) is skipped!");
                 _currentColour = card.Colour;
+
                 SkipNextPlayer();
                 break;
 
             case CardType.Reverse:
-                Console.WriteLine("Direction reversed!");
+                //Console.WriteLine("Direction reversed!");
                 _currentColour = card.Colour;
+
                 if (_players.Count == 2)
                 {
                     SkipNextPlayer();
@@ -128,36 +129,40 @@ public class Game
                     _direction *= -1;
                     NextPlayer();
                 }
+                PrintDirection();
                 break;
 
             case CardType.PlusTwo:
                 _currentColour = card.Colour;
                 int idxPlus2 = GetNextPlayerIndex();
-                Console.WriteLine($"Next player ({_players[idxPlus2].Name}) draws 2 cards and is skipped!");
-                _players[idxPlus2].GetCard(_deck, 2);
-                _currentPlayerIndex = idxPlus2;
+                Console.WriteLine($"[PLUS TWO] Next player ({_players[idxPlus2].Name}) draws 2 cards and is skipped!");
+                _players[idxPlus2].GetCard(_deck!, 2);
+
                 SkipNextPlayer();
                 break;
 
             case CardType.Wild:
-                Console.WriteLine("Choose a colour: 0-Red, 1-Yellow, 2-Green, 3-Blue");
-                _currentColour = (Colour)int.Parse(Console.ReadLine());
+                Console.WriteLine("[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green");
+                _currentColour = (Colour)int.Parse(Console.ReadLine()!);
+
                 NextPlayer();
                 break;
 
             case CardType.WildPlusFour:
-                Console.WriteLine("Choose a colour: 0-Red, 1-Yellow, 2-Green, 3-Blue");
-                _currentColour = (Colour)int.Parse(Console.ReadLine());
+                Console.WriteLine("[COLOUR] Choose a colour: 0-Blue, 1-Yellow, 2-Red, 3-Green");
+                _currentColour = (Colour)int.Parse(Console.ReadLine()!);
 
                 int idxPlus4 = GetNextPlayerIndex();
-                Console.WriteLine($"Next player ({_players[idxPlus4].Name}) draws 4 cards and is skipped!");
-                _players[idxPlus4].GetCard(_deck, 4);
-                _currentPlayerIndex = idxPlus4;
+                Console.WriteLine($"[WILD FOUR] Next player ({_players[idxPlus4].Name}) draws 4 cards and is skipped!");
+                _players[idxPlus4].GetCard(_deck!, 4);
+                Console.WriteLine($"[DEBUG] {_players[idxPlus4].Name} now has {_players[idxPlus4].Hand.Count} cards!");
+
                 SkipNextPlayer();
                 break;
 
             default:
                 _currentColour = card.Colour;
+
                 NextPlayer();
                 break;
         }
@@ -178,5 +183,34 @@ public class Game
     {
         int count = _players.Count;
         _currentPlayerIndex = (_currentPlayerIndex + 2 * _direction + count) % count;
+    }
+
+    private void PrintAllHands()
+    {
+        for(int i = 0; i < _players.Count; i++)
+        {
+            if(i == _currentPlayerIndex)
+            {
+                Console.Write("[PLAYERS] ->   ");
+            }
+            else
+            {
+                Console.Write("[PLAYERS]      ");
+            }
+            
+            Console.WriteLine(_players[i]);
+        }
+    }
+
+    private void PrintDirection()
+    {
+        if(_direction == 1)
+        {
+            Console.WriteLine("[DIRECTION] (clockwise) 1 -> 2 -> 3");
+        }
+        else if(_direction == -1)
+        {
+            Console.WriteLine("[DIRECTION] (trigonometric) 3 -> 2 -> 1");
+        }
     }
 }
