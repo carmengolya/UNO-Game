@@ -1,3 +1,5 @@
+using System.Drawing;
+
 public class Deck
 {
     private Stack<Card> _cards;
@@ -50,8 +52,22 @@ public class Deck
     public Card GetCardFromDeck()
     {
         if(_cards.Count == 0)
-            throw new InvalidOperationException("The deck is empty!");
+            throw new InvalidOperationException("[DECK] The deck is empty!");
+
         return _cards.Pop();
+    }
+
+    public void RefillFromDiscard(List<Card> thrownOnes)
+    {
+        Card top = thrownOnes.Last();
+        var cardsToShuffle = thrownOnes.Take(thrownOnes.Count- 1).ToList();
+        _cards.Clear();
+
+        foreach(var c in cardsToShuffle)
+            _cards.Push(c);
+
+        var shuffled = cardsToShuffle.OrderBy(x => _rnd.Next()).ToList();
+        _cards = new Stack<Card>(shuffled);
     }
 
     public int CardsNumber => _cards.Count;

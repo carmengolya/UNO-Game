@@ -1,11 +1,13 @@
 public class Player
 {
     public string Name { get; set; }
+    public int Score { get; set; }
     public List<Card> Hand { get; set; } = new List<Card>();
 
     public Player(string name)
     {
         Name = name;
+        Score = 0;
     }
 
     public void GetCard(Deck deck, int number = 1)
@@ -27,6 +29,11 @@ public class Player
         }
 
         return result;
+    }
+
+    public void AddScore(int points)
+    {
+        Score += points;
     }
 
     public bool HasOneCard => Hand.Count == 1;

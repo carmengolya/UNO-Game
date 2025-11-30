@@ -9,12 +9,12 @@ public class Game
 
     public void Start()
     {
-        Console.Write("Number of players (2-10): ");
+        Console.Write("[SETUP] Number of players (2-10): ");
         int n = int.Parse(Console.ReadLine()!);
 
         for (int i = 0; i < n; i++)
         {
-            Console.Write($"Name of the player {i + 1}: ");
+            Console.Write($"[SETUP] Name of the player {i + 1}: ");
             string? name = Console.ReadLine()!;
             _players.Add(new Player(name));
         }
@@ -41,9 +41,10 @@ public class Game
         {
             var player = _players[_currentPlayerIndex];
             Console.WriteLine("\n------------------------------------\n");
-            Console.WriteLine($"-> {player.Name}'s turn");
+            Console.WriteLine($"[PLAYER]-> {player.Name}'s turn");
             Console.WriteLine($"[LOG TOP] Current card on the table: {_thrownOnes.Last()}");
             Console.WriteLine($"[LOG TOP] Current colour on the table: {_currentColour}");
+            Console.WriteLine($"[DECK] Cards remaining in deck: {_deck.CardsNumber}");
 
             PrintAllHands();
 
@@ -55,7 +56,8 @@ public class Game
 
             if(playableCards.Count == 0)
             {
-                Console.WriteLine($"{player.Name} can't play, draw one card!");
+                Console.WriteLine($"[PLAYER] {player.Name} can't play, draw one card!");
+                EnsureDeckNotEmpty();
                 player.GetCard(_deck, 1);
                 NextPlayer();
                 continue;
@@ -66,7 +68,10 @@ public class Game
 
             if(choice == -1)
             {
+                EnsureDeckNotEmpty();
                 player.GetCard(_deck, 1);
+                Console.WriteLine($"[DRAW] {player.Name} drew 1 card");
+
                 NextPlayer();
                 continue;
             }
@@ -84,17 +89,29 @@ public class Game
                 continue;
             }
 
+            Console.WriteLine($"[PLAY] {player.Name} played {chosenCard}");
             player.Hand.RemoveAt(choice);
             _thrownOnes.Add(chosenCard);
             ApplyCardEffects(chosenCard);
             if(player.HasNoCards)
             {
-                Console.WriteLine($"\nPlayer {player.Name} has one this round!");
-                break;
+                Console.WriteLine($"[WINNER] Player {player.Name} has one this round!");
+                player.AddScore(CalculateScore(player));
+                Console.WriteLine($"[SCORE] {player.Name} gains {player.Score} points!");
+                
+                if(player.Score >= 500)
+                {
+                    Console.WriteLine("\n [GRAND WINNER] {player.Name} WINS THE GAME with {player.TotalScore} points!!!");
+                    break;
+                }
+                
+                Console.WriteLine("\n[NEW ROUND STARTING]");
+                ResetRound();
+                continue;
             }
             else if(player.HasOneCard)
             {
-                Console.WriteLine($"{player.Name} says UNO!");
+                Console.WriteLine($"[UNO] {player.Name} says UNO!");
             }
         }
     }
@@ -110,14 +127,13 @@ public class Game
         {
             case CardType.Skip:
                 int idxNext = GetNextPlayerIndex();
-                Console.WriteLine($"Next player ({_players[idxNext].Name}) is skipped!");
+                Console.WriteLine($"[SKIP] Next player ({_players[idxNext].Name}) is skipped!");
                 _currentColour = card.Colour;
 
                 SkipNextPlayer();
                 break;
 
             case CardType.Reverse:
-                //Console.WriteLine("Direction reversed!");
                 _currentColour = card.Colour;
 
                 if (_players.Count == 2)
@@ -136,6 +152,7 @@ public class Game
                 _currentColour = card.Colour;
                 int idxPlus2 = GetNextPlayerIndex();
                 Console.WriteLine($"[PLUS TWO] Next player ({_players[idxPlus2].Name}) draws 2 cards and is skipped!");
+                EnsureDeckNotEmpty();
                 _players[idxPlus2].GetCard(_deck!, 2);
 
                 SkipNextPlayer();
@@ -154,6 +171,7 @@ public class Game
 
                 int idxPlus4 = GetNextPlayerIndex();
                 Console.WriteLine($"[WILD FOUR] Next player ({_players[idxPlus4].Name}) draws 4 cards and is skipped!");
+                EnsureDeckNotEmpty();
                 _players[idxPlus4].GetCard(_deck!, 4);
                 Console.WriteLine($"[DEBUG] {_players[idxPlus4].Name} now has {_players[idxPlus4].Hand.Count} cards!");
 
@@ -162,7 +180,7 @@ public class Game
 
             default:
                 _currentColour = card.Colour;
-
+            
                 NextPlayer();
                 break;
         }
@@ -212,5 +230,58 @@ public class Game
         {
             Console.WriteLine("[DIRECTION] (trigonometric) 3 -> 2 -> 1");
         }
+    }
+
+    private void EnsureDeckNotEmpty()
+    {
+        if(_deck!.CardsNumber == 0)
+        {
+            Console.WriteLine("[DECK] Deck is empty, refilling from discarded pile!");
+            _deck.RefillFromDiscard(_thrownOnes);
+            _thrownOnes = new List<Card>() { _thrownOnes.Last() };
+        }
+    }
+
+    private int CalculateScore(Player winner)
+    {
+        int score = 0;
+
+        foreach(var p in _players)
+        {
+            if(p == winner)
+                continue;
+            
+            foreach(var card in p.Hand)
+            {
+                score += card.GetScoreValue();
+            }
+        }
+
+        return score;
+    }
+
+    private void ResetRound()
+    {
+        _deck = new Deck();
+        _thrownOnes.Clear();
+        _currentPlayerIndex = 0;
+        _direction = 1;
+
+        foreach(var p in _players)
+        {
+            p.Hand.Clear();
+            p.GetCard(_deck, 7);
+        }
+
+        Card first;
+        do
+        {
+            first = _deck.GetCardFromDeck();
+        } while(first.CardType == CardType.Wild || first.CardType == CardType.WildPlusFour);
+
+        _thrownOnes.Add(first);
+        _currentColour = first.Colour;
+
+        Console.WriteLine($"[LOG TOP] First card on the table: {first}");
     }
 }
