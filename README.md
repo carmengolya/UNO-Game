@@ -90,13 +90,6 @@ A full UNO game is usually played until one player reaches **500 points**.
 
 ---
 
-## 🚧 Current Status
-
-The project is currently in development.  
-Core classes have been created, and additional game logic will be added progressively.
-
----
-
 ## 📄 Notes
 
 This project is created for educational purposes as part of my university coursework.
