@@ -11,7 +11,7 @@ This is an ongoing project, currently in its early stages.
 
 The project simulates the classic UNO card game in a console environment.
 For a better view of the game in the console, I've introduced the colouring of the "cards" when displayed. 
-![Alt text](/UNO-Game/console.png)
+![Console Screenshot](console.png)
 
 ## 📘 Project Structure
 
